@@ -100,6 +100,10 @@ body {
   position: fixed;
 }
 
+.red {
+  color: red;
+}
+
 .stories {
   display: flex;
   align-items: center;
