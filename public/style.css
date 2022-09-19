@@ -25,6 +25,14 @@ body {
   z-index: 2;
 }
 
+.container {
+  width: 100%;
+  max-width: 935px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .navbar ion-icon, .navbar img {
   cursor: pointer;
 }
@@ -89,6 +97,7 @@ body {
 
 .sidebar {
   width: 293px;
+  position: fixed;
 }
 
 .stories {
