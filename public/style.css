@@ -19,7 +19,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 .container {
@@ -88,8 +88,11 @@ body {
 }
 
 .esquerda {
+  padding-top: 40px;
   width: 100%;
   max-width: 614px;
+  position: absolute;
+  z-index: 2;
 }
 
 .red {
@@ -309,7 +312,6 @@ body {
 .fundo-mobile {
   display: none;
 }
-
 
 .fundo-mobile ion-icon {
   cursor: pointer;

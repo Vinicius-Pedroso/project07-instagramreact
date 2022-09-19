@@ -4,9 +4,6 @@ export default function Posts() {
 
     const [like1, setLike1] = useState(false)
     const [like2, setLike2] = useState(false)
-    const [curtidas1, setCurtidas1] = useState(455233)
-    const [curtidas2, setCurtidas2] = useState(754196)
-
     return (
         <div class="posts">
             <div class="post">
