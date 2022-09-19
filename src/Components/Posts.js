@@ -27,8 +27,8 @@ export default function Posts() {
                 <div class="fundo">
                     <div class="acoes">
                         <div>
-                            {like1 && <ion-icon name="heart" class="red"></ion-icon>}
-                            {!like1 && <ion-icon name="heart-outline"></ion-icon>}
+                            {like1 && <ion-icon name="heart" class="red" onClick={ () => setLike1(!like1)}></ion-icon>}
+                            {!like1 && <ion-icon name="heart-outline" onClick={ () => setLike1(!like1)}></ion-icon>}
                             <ion-icon name="chatbubble-outline"></ion-icon>
                             <ion-icon name="paper-plane-outline"></ion-icon>
                         </div>
@@ -40,7 +40,7 @@ export default function Posts() {
                     <div class="curtidas">
                         <img src="assets/img/respondeai.svg" />
                         <div class="texto">
-                            Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
+                            Curtido por <strong>respondeai</strong> e <strong>outras 101.524 pessoas</strong>
                         </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@ export default function Posts() {
                 <div class="fundo">
                     <div class="acoes">
                         <div>
-                        {like2 && <ion-icon name="heart" class="red"></ion-icon>}
-                            {!like2 && <ion-icon name="heart-outline"></ion-icon>}
+                        {like2 && <ion-icon name="heart" class="red" onClick={ () => setLike2(!like2)}></ion-icon>}
+                            {!like2 && <ion-icon name="heart-outline" onClick={ () => setLike2(!like2)}></ion-icon>}
                             <ion-icon name="chatbubble-outline"></ion-icon>
                             <ion-icon name="paper-plane-outline"></ion-icon>
                         </div>
